@@ -25,25 +25,25 @@ miha_oblika_obraza = "GCCACGG"
 
 match = "1 match found: "
 
-if (dnk.find(ziga_spol)>0) and \
-   (dnk.find(ziga_rasa)>0) and \
-   (dnk.find(ziga_barva_las)>0) and \
-   (dnk.find(ziga_barva_oci)>0) and \
-   (dnk.find(ziga_oblika_obraza)>0):
+if (dnk.find(ziga_spol)>-1) and \
+   (dnk.find(ziga_rasa)>-1) and \
+   (dnk.find(ziga_barva_las)>-1) and \
+   (dnk.find(ziga_barva_oci)>-1) and \
+   (dnk.find(ziga_oblika_obraza)>-1):
    print match + "Sladoled je pojedel Žiga."
 
-if (dnk.find(matej_spol)>0) and \
-   (dnk.find(matej_rasa)>0) and \
-   (dnk.find(matej_barva_las)>0) and \
-   (dnk.find(matej_barva_oci)>0) and \
-   (dnk.find(matej_oblika_obraza)>0):
+if (dnk.find(matej_spol)>-1) and \
+   (dnk.find(matej_rasa)>-1) and \
+   (dnk.find(matej_barva_las)>-1) and \
+   (dnk.find(matej_barva_oci)>-1) and \
+   (dnk.find(matej_oblika_obraza)>-1):
    print match + "Sladoled je pojedel Matej."
 
-if (dnk.find(miha_spol)>0) and \
-   (dnk.find(miha_rasa)>0) and \
-   (dnk.find(miha_barva_las)>0) and \
-   (dnk.find(miha_barva_oci)>0) and \
-   (dnk.find(miha_oblika_obraza)>0):
+if (dnk.find(miha_spol)>-1) and \
+   (dnk.find(miha_rasa)>-1) and \
+   (dnk.find(miha_barva_las)>-1) and \
+   (dnk.find(miha_barva_oci)>-1) and \
+   (dnk.find(miha_oblika_obraza)>-1):
    print match + "Sladoled je pojedel Miha."
 
 
